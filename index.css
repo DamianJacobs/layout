@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-style: sans-serif;
+  font-size: 24px;
+}
+
+@media screen () {}
+
+body {
+  background-color:   #b35900;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  flex-flow: nowrap;
+  width: auto;
+  height: auto;
+  background-color: orange;
+}
+
+#Homepage {
+  background-image: url(img/home.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 150px;
+  margin-left: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+#sport {
+  background-image: url(img/sport.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 150px;
+  margin-left: 20px;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+#hobby {
+  background-image: url(img/games.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 150px;
+  margin-left: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+
+}
+
+
+article {
+  margin: auto;
+  width: 70vw;
+  background-color: #1a1a1a;
+  padding-left: 20px;
+  height: auto;
+}
+
+#ad {
+  position: absolute;
+  top: 21%;
+  width: 12%;
+  height: 520px;
+  margin-left: 0;
+}
+
+#ad2 {
+  position: absolute;
+  right: 0%;
+  top: 21%;
+  width: 12%;
+  height: 520px;
+}
+
+#banner {
+  text-align: center;
+  width: 65%;
+  padding-left: 17%;
+}
+
+h1 {
+  font-size: 33px;
+}
+
+.home p {
+  padding-bottom: 50px;
+}
+
+#berg {
+  width: 20%;
+  height: 20%;
+  float: right;
+}
+
+
+#games{
+  width: 200px;
+  height: 200px;
+}
