@@ -69,18 +69,18 @@ article {
 
 #ad {
   position: absolute;
-  top: 21%;
+  top: 25%;
   width: 12%;
-  height: 520px;
+  height: 463px;
   margin-left: 0;
 }
 
 #ad2 {
   position: absolute;
   right: 0%;
-  top: 21%;
+  top: 25%;
   width: 12%;
-  height: 520px;
+  height: 463px;
 }
 
 #banner {
@@ -91,6 +91,7 @@ article {
 
 h1 {
   font-size: 33px;
+  text-align: center;
 }
 
 .home p {
@@ -107,4 +108,11 @@ h1 {
 #games{
   width: 200px;
   height: 200px;
+}
+
+p {
+  text-align: center;
+}
+footer{
+  background-color: orange;
 }
